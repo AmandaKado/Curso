@@ -5,8 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+            border-radius: 3px;
+            padding: 10px;
+        }
+
+        .nome {
+            background-color: aquamarine;
+        }
+        .email {
+            background-color: pink;
+        }
+        .telefone {
+            background-color: coral;
+        }
+        .cargo {
+            background-color: crimson;
+        }
+        tbody {
+            font-family: sans-serif;
+            color : purple
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Tabelas</h1>
+    <table>
+        <caption>Cadastro de clientes</caption>
+        <!-- Caption = legenda -->
+        <colgroup>
+            <col class="nome">
+            <col class="email">
+            <col class="telefone">
+            <col class="cargo">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>Nome: </th>
+            <th>Email: </th>
+            <th>Telefone: </th>
+            <th>Cargo: </th>
+        </tr>
+        </thead>
+        <!-- TR representa uma linha -->
+        <!-- TH representa 3 títulos, contendo então 3 colunas -->
+        <!-- TD Representa o conteúdo -->
+        <tbody>
+        <tr>
+            <td>Amanda</td>
+            <td>amandakado.ak@gmail.com</td>
+            <td>47984186031</td>
+            <td rowspan="2">Desenvolvedor WEB</td>
+        </tr>
+
+        <tr>
+            <td>Leticia</td>
+            <td>leticia.ak@gmail.com</td>
+            <td>479841569845</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <!-- colspan serve para ocupar mais de uma coluna -->
+            <!-- rowspan serve para ocupar mais de uma linha -->
+            <!-- Colgroup cria um grupo de colunas para formatá-las individualmente -->
+            <td colspan="479841569845">Total: 2</td>
+        </tr>
+        </tfoot>
+    </tbody>
+    </table>
 </body>
-</html>
+</html> 
