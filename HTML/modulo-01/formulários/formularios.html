@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <!-- Action informa a página que vai receber nossas informações -->
+    <!-- GET envia as informações pela URL, já o POST envia as informações encapsuladas sem que o usuário veja -->
+    <!-- Required deixa o campo obrigatório -->
+    <!-- Autofocus dá um foco para o campo em que está inserido a opção -->
+    <!-- Disabled deixa o campo desabilitado -->
+    <!-- Maxlength indica o máximo de caracteres que vai ser aceito no campo -->
+    <!-- No radio não é possível selecionar mais de uma opção, já no checkbox sim -->
+    <!-- Checked -> Ao abrir a página já deixa selecionado uma resposta padrão -->
+    <form action="http://paginaexemplo.php" method="post">
+        <fieldset>
+        <legend>Informações pessoais</legend>
+        Nome: 
+            <br>
+        <input type="text" name="nome" required autofocus maxlength="10">
+            <br>
+        Senha:
+            <br>
+        <input type="password" name="senha" required autofocus>
+            <br>
+        E-mail:
+            <br>
+        <input type="email" name="email" required autofocus>
+            <br>
+        Time: 
+            <br>
+        <input type="radio" name="time" value="Vasco"> Vasco 
+            <br>
+        <input type="radio" name="time" value="Flamengo"> Flamengo 
+            <br>
+        <input type="radio" name="time" value="Santos" checked> Santos 
+            <br>
+        Cores: 
+            <br>
+        <input type="checkbox" name="cores" value="Verde"> Verde
+            <br>
+        <input type="checkbox" name="cores" value="Preto" checked> Preto
+            <br>
+        <input type="checkbox" name="cores" value="Azul"> Azul    
+            <br>
+        <input type="submit" name="btn-enviar" value="Enviar" />
+        </fieldset>
+    </form>
+</body>
+</html>
