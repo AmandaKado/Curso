@@ -63,15 +63,23 @@
             <br>
         <select name="veiculo">
             <optgroup label="Novos">
-            <option value="Camaro">Camaro</option>
-            <option value="Sandero">Sandero</option>
+                <option value="Camaro">Camaro</option>
+                <option   option value="Sandero">Sandero</option>
             </optgroup>
             <optgroup label="Velhos">
-            <option value="Celta">Celta</option>
+                <option value="Celta">Celta</option>
             </optgroup>
         </select>
             <br>
         <input type="hidden" name="id">
+            <br>
+        <input name="cursos" list="lista-cursos">
+            <datalist id="lista-cursos">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+            </datalist>
+            <br>
             <br>
         URL> 
         <input type="url" name="site">
