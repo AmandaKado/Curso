@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input fora do form</title>
+</head>
+<body>
+    <!-- Normalmente o input vai dentro do form, porém é possível colocar fora também -->
+    <form  id="form-cadastro" enctype="application/x-www-form-urlencoded" name="formulário-cadastro">
+        Email:
+            <br>
+        <input type="email" name="email" required>
+            <br>
+        <input type="submit" name="cadastrar" formaction="http://facebook.com" formmethod="get" formenctype="application/x-www-form-urlencoded"  value="Cadastrar" formnovalidate>
+            <br>
+        <input type="submit" name="enviar-por-email" formaction="http://gmail.com" formmethod="post" value="Enviar por email">
+    </form>
+
+    Nome: 
+        <br>
+    <input type="name" name="nome" required form="form-cadastro">   
+</body>
+</html>
