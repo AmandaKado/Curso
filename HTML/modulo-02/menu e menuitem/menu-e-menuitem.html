@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu e Menuitem</title>
+    <style>
+        .elemento {width: 300px; height: 300px; background-color: #ccc;}
+    </style>
+</head>
+<body>
+    <!-- Tag menu representa uma lista de comandos, podendo criar um menu de contexto, uma barra de ferramentas e um menu palpap -->
+    <!-- context roda somente no firefox -->
+    <div class="elemento" contextmenu="meu-menu"></div>
+    
+    <menu type="context" id="meu-menu">
+        <menuitem> Atualizar </menuitem>
+    </menu>
+</body>
+</html>
