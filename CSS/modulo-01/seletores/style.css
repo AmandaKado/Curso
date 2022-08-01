@@ -1,0 +1,19 @@
+/*Seletor universal*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: #f0f000;
+}
+
+/*Seletor tag*/
+p {
+    color: #118;
+}
+
+/*Seletor */
+input[type="text"], input[type="email"], input[type="submit"] {
+    width: 50px; 
+    background-color: #098;
+    color: #987;
+}
+
