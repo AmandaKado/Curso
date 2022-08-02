@@ -1,0 +1,36 @@
+/*text-indent serve para dar um recuo na primeira linha
+  line-height define a altura das linhas               
+  letter-spacing determina o espaço entre as letras
+  word-spacing espaçamento entre as palavras*/
+#um {
+    color: #567115;
+    text-transform: uppercase;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    text-shadow: 1px 2px 5px #00DD22;
+}
+
+#dois {
+    color:#115087;
+    text-transform: lowercase;
+    direction: rtl;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+
+h1 {
+    text-align: left;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+h2 {
+    text-align: right;
+    text-decoration: overline;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: line-through;
+}
