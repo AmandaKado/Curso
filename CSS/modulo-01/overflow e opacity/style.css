@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+/*auto hidden visible scroll*/
 #conteudo {
     background-color: #f00;
     width: 300px;
