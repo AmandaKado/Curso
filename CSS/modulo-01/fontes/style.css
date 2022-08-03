@@ -1,12 +1,13 @@
 * {
 font-size: 100%;
 }
+/*
 @font-face {
     font-family:'windsong';
     src: url(windsong-webfont.woff);
-}
+}*/
 p {
-    font-family: 'windsong', verdana, sans-serif;
+    font-family: 'noto sans korean', verdana, sans-serif;
     font-variant: small-caps;
     font-weight: bold;
     font-style: oblique;/*italic*/
