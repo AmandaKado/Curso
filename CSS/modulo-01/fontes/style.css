@@ -1,0 +1,11 @@
+* {
+font-size: 100%;
+}
+
+p {
+    font-family: Arial, verdana, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: oblique;/*italic*/
+    font-size: 1em;/* 1em equivale a 16px*/
+}
