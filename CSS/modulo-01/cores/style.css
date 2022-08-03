@@ -1,0 +1,11 @@
+#cores {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right top, #961919, #00f);
+}
+
+#gradiente {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(#f00, #0f0);
+}
