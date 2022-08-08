@@ -1,0 +1,12 @@
+#exemplo {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    transition-property: width; transition-duration: 2s; transition-timing-function: linear; transition-delay: 0s;
+}
+
+#exemplo:hover /*Controla o estado do elemento quando passa o mouse em cima do elemento*/ {
+    width: 350px;
+    height: 350px;
+    background-color: #0f0;
+}
