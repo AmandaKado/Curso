@@ -1,0 +1,13 @@
+#conteudo {
+    width: 600px;
+    height: 1200px;
+    background-color: #f00;
+    position: relative; /*Faz com que o a div texto fique dentro da div pai conteúdo*/
+}
+
+#texto {
+    width: 500px;
+    background-color: #0f0;
+    position: absolute; left: 200px; top: 40px; /*Posiciona o texto em qualquer lugar da tela indicar*/
+    /*fixed deixa a div e seu conteúdo fixo na tela*/
+}
